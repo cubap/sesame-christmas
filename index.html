@@ -6,19 +6,31 @@
     <title>Sounding Salon</title>
     <style type="text/css">
         @font-face {
-            font-family: 'Essays 1743';
-            src: url('f/essays1743-webfont.eot');
-            src: local('Essays 1743'), url('f/essays1743-webfont.woff') format('woff'), url('f/essays1743-webfont.ttf') format('truetype');
+            font-family: 'Essays1743';
+            src: url('assets/fonts/Essays1743.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Essays1743.woff') format('woff'), url('assets/fonts/Essays1743.ttf') format('truetype'), url('assets/fonts/Essays1743.svg#Essays1743') format('svg');
             font-weight: normal;
             font-style: normal;
         }
 
         @font-face {
-            font-family: 'Essays 1743';
-            src: url('f/essays1743-italic-webfont.eot');
-            src: local('Essays 1743'), url('f/essays1743-italic-webfont.woff') format('woff'), url('f/essays1743-italic-webfont.ttf') format('truetype');
+            font-family: 'Essays1743-Bold';
+            src: url('assets/fonts/Essays1743-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Essays1743-Bold.woff') format('woff'), url('assets/fonts/Essays1743-Bold.ttf') format('truetype'), url('assets/fonts/Essays1743-Bold.svg#Essays1743-Bold') format('svg');
             font-weight: normal;
-            font-style: italic;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Essays1743-BoldItalic';
+            src: url('assets/fonts/Essays1743-BoldItalic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Essays1743-BoldItalic.woff') format('woff'), url('assets/fonts/Essays1743-BoldItalic.ttf') format('truetype'), url('assets/fonts/Essays1743-BoldItalic.svg#Essays1743-BoldItalic') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Essays1743-Italic';
+            src: url('assets/fonts/Essays1743-Italic.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Essays1743-Italic.woff') format('woff'), url('assets/fonts/Essays1743-Italic.ttf') format('truetype'), url('assets/fonts/Essays1743-Italic.svg#Essays1743-Italic') format('svg');
+            font-weight: normal;
+            font-style: normal;
         }
 
         body {
@@ -36,7 +48,7 @@
             width: auto;
             height: auto;
             z-index: -100;
-            background: url('//4.bp.blogspot.com/-Et4dPAIb72A/WFq0PMETUWI/AAAAAAAAAAc/J24Y-4UX3JczN2iqRPmSUm1KkPG69MTcACK4B/s0/mw00023_HaddoHouse.jpg') no-repeat;
+            background: url('assets/background.jpg') no-repeat;
             background-size: cover;
             transition: 1s opacity;
         }
@@ -47,19 +59,27 @@
         h4,
         caption,
         thead th {
-            font-family: "Essays 1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+            font-family: "Essays1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
             font-weight: normal;
             text-transform: uppercase;
             text-shadow: 0 0 1px #667;
         }
+         h1 {
+             font-size: 6rem;
+         }
+         #muteButton {
+             border-radius: 50%;
+             padding: .5em;
+         }
     </style>
 </head>
 
 <body>
-    <video id="bgvideo" autoplay loop playsInline type="video/mp4">
+    <video id="bgvideo" autoplay loop playsInline type="video/mp4" poster='assets/background.jpg'>
         <source src="assets/salon placeholder_Large.mp4" type="video/mp4">
         no vid
     </video>
+    <button id="muteButton" onclick="toggleMute(this)">&#x1f50a;</button>
 
     <h1 id="title">
         Sounding Salon
@@ -68,6 +88,10 @@
         async function playVideo() {
             let bg = await bgvideo.play().catch((err) => err)
             console.log(bg)
+        }
+        function toggleMute(el){
+            bgvideo.muted=!bgvideo.muted
+            el.innerHTML = bgvideo.muted ? "&#x1f507;" : "&#x1f50a;";
         }
         window.onload = document.onscroll = document.onclick = bgvideo.onmousemove = bgvideo.onmouseenter = playVideo
     </script>
