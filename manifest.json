@@ -1,0 +1,297 @@
+{
+  "@context": [
+    "http://digirati.com/ns/timeliner",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://centerfordigitalhumanities.github.io/sounding-salon/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Mary Gladstone Salon"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Mary Gladstone Salon"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          ""
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/c1-ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/c1-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Mary Gladstone Salon recording"
+                ]
+              },
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/gladstoneAudio.ogg",
+                "type": "Audio",
+                "duration": 5512.943016
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://centerfordigitalhumanities.github.io/sounding-salon/range/r0",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Ambient Noise"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Guests mill and arrive before the performance."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=0,1142.066615",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#9b9b9b"
+    },
+    {
+      "id": "id-1563470412663",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Ludwig van Beethoven"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Violin Sonata in G Major op.30 no.3"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2626.5082,3731.557539",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#b8e986"
+    },
+    {
+      "id": "id-1563470585977",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Johannes Brahms"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Hungarian Dances for piano duet; transcribed for vln & pf by Joseph Joachim"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4070.862083,4793.406724",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#b8e986"
+    },
+    {
+      "id": "id-1563467625896",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Jean-Marie LeClair"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Violin Sonata in D major op.9 no.3"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1480.709903,2130.197852",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#b8e986"
+    },
+    {
+      "id": "id-1563470702523",
+      "type": "Range",
+      "label": {
+        "en": [
+          "George Frideric Handel"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Violin Sonata in A major op.1 no.3"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4793.406724,5283.558415",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#b8e986"
+    },
+    {
+      "id": "id-1563470530513",
+      "type": "Range",
+      "label": {
+        "en": [
+          "George Frideric Handel"
+        ]
+      },
+      "summary": {
+        "en": [
+          "‘Where’er you walk’ from Semele"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3731.557539,4070.862083",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#417505"
+    },
+    {
+      "id": "id-1563467936518",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Louis Spohr"
+        ]
+      },
+      "summary": {
+        "en": [
+          "'Barcarole' from Sechs Salon Stüke op.135"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2130.197852,2453.05097",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#b8e986"
+    },
+    {
+      "id": "id-1563465950621",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Phyllis Weliver Introduction"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Introduction to the evening and social event."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1142.066615,1371.893421",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#A63993"
+    },
+    {
+      "id": "id-1563470757410",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Ambient Noise"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Dismissus"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5283.558415,5512.943016",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#9b9b9b"
+    },
+    {
+      "id": "id-1563468501312",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Robert Schumann"
+        ]
+      },
+      "summary": {
+        "en": [
+          "‘Widmung’ from Myrten op.25"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2453.05097,2626.5082",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#417505"
+    },
+    {
+      "id": "id-1563467477421",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Sophie Fuller Introduction"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Introduction to the evening and social event."
+        ]
+      },
+      "items": [
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1371.893421,1480.709903",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#A63993"
+    }
+  ],
+  "tl:settings": {
+    "tl:backgroundColour": "#fff",
+    "tl:bubblesStyle": "rounded",
+    "tl:blackAndWhite": false,
+    "tl:showTimes": false,
+    "tl:autoScaleHeightOnResize": false,
+    "tl:startPlayingWhenBubbleIsClicked": true,
+    "tl:stopPlayingAtTheEndOfSection": false,
+    "tl:bubbleHeight": 55
+  }
+}
