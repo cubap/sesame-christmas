@@ -45,7 +45,8 @@
               "body": {
                 "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/gladstoneAudio.ogg",
                 "type": "Audio",
-                "duration": 5512.943016
+                "duration": 5512.943016,
+                "format": "audio/ogg"
               },
               "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1"
             }
