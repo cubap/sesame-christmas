@@ -12,3 +12,6 @@ nav ul li.navigation:before {
 li.navigation.active:before {
     color: #44FF44;
 }
+audio {
+    width:100%;
+}
