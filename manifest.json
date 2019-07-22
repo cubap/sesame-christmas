@@ -26,8 +26,7 @@
         ]
       },
       "duration": 5512.943016,
-      "height": 1000,
-      "width": 1000,
+      "behavior": ["no-repeat"],
       "items": [
         {
           "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/c1-ap",

@@ -1,0 +1,14 @@
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    cursor: pointer;
+}
+nav ul li.navigation:before {
+    content: '\0025B6';
+    margin-left: -20px;
+    margin-right: 10px;
+}   
+li.navigation.active:before {
+    color: #44FF44;
+}
