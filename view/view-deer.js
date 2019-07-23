@@ -67,11 +67,11 @@ window.updateTimer = () => {
 DEER.TEMPLATES.navibar = (obj) => `<div style="width:100%;" class="navibar">${getRanges(obj).reduce((a,item)=>a+=`<a onclick="player.currentTime=${item.time.start}" style="background-color:${item.color};width:${100*(item.time.end-item.time.start)/obj.items[0].duration}%;" title="${item.summary}, ${item.title}">${item.summary}</a>`,``)}</div>`
 
 DEER.TEMPLATES.slideshow = (obj) => {
-    let annotations = obj.items[1].items.sort((a,b)=>parseFloat(a.target.split("t=").pop())-parseFloat(b.target.split("t=").pop()))
-    let renderTweet = a=>`<div class="slideshow" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">${a.value}</div>`
-    let renderImage = a=>`<img class="slideshow" src="${a.id}" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">`
+    let annotations = obj.items[0].items[1].items.sort((a,b)=>parseFloat(a.target.split("t=").pop())-parseFloat(b.target.split("t=").pop()))
+    let renderTweet = a=>`<div class="slideshow" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">${a.body.value}</div>`
+    let renderImage = a=>`<img class="slideshow" src="${a.body.id}" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">`
     let tmpl = ``
-    annotations.forEach(a=>tmpl+=a.value?renderTweet(a):renderImage(a))
+    annotations.forEach(a=>tmpl+=a.body.value?renderTweet(a):renderImage(a))
     return tmpl
 }
 
