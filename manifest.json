@@ -13,7 +13,7 @@
   },
   "summary": {
     "en": [
-      "Mary Gladstone Salon"
+      "<p>Mary Gladstone, daughter of William Gladstone, is known to have been the hostess of many evening salons held at No. 11 Carlton House Terrace, entertaining royalty, Lords, Ladies, politicians, and other members of society.</p><p>Informed by the research of Professor Phyllis Weliver and Dr Sophie Fuller, the music you can hear recreates the musical repertoire which was heard during an evening performance in March 1873.</p>"
     ]
   },
   "items": [
@@ -60,7 +60,7 @@
       "type": "Range",
       "label": {
         "en": [
-          "Ambient Noise"
+          "ambient noise"
         ]
       },
       "summary": {
@@ -228,7 +228,7 @@
       "type": "Range",
       "label": {
         "en": [
-          "Ambient Noise"
+          "ambient noise"
         ]
       },
       "summary": {

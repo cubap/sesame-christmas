@@ -17,7 +17,7 @@ import { default as DEER } from 'https://centerfordigitalhumanities.github.io/de
 
 // new template
 import { default as UTILS } from 'https://centerfordigitalhumanities.github.io/deer/releases/alpha-0.8/deer-utils.js'
-DEER.TEMPLATES.boom = (obj) => {
+DEER.TEMPLATES.listen = (obj) => {
     let tmpl = `<h2>${obj.label.en}</h2>`
     let canvas = obj.items[0]
     let ranges = obj.structures.map(range=>{
@@ -25,15 +25,15 @@ DEER.TEMPLATES.boom = (obj) => {
         let start = parseFloat(time.split(",")[0])
         let end = parseFloat(time.split(",")[1])
         let title = range.label.en[0]
-        let subtitle = range.summary.en[0]
+        let summary = range.summary.en[0]
         
         return {
             title: title,
-            subtitle: subtitle,
+            summary: summary,
             time: { start: start, end: end }
         }
     }).sort((a,b)=>a.time.start-b.time.start)
-    let nav = `<nav><ul>`+ranges.reduce((a,item)=>a+=`<li class="navigation" onclick="player.currentTime=${item.time.start}" salon-start="${item.time.start}" salon-end="${item.time.end}">${item.title} <cite>${item.subtitle}</cite></li>`,``)+`</ul></nav>`
+    let nav = `<nav><ul>`+ranges.reduce((a,item)=>a+=`<li class="navigation" onclick="player.currentTime=${item.time.start}" salon-start="${item.time.start}" salon-end="${item.time.end}"><cite>${item.summary}</cite><br>${item.title}</li>`,``)+`</ul></nav>`
     let audio = `<audio id="player"
         controls preload 
         ontimeupdate="updateTimer()"
@@ -52,6 +52,26 @@ DEER.TEMPLATES.boom = (obj) => {
         })
     }
     return tmpl
+}
+
+DEER.TEMPLATES.navibar = (obj) => {
+    let ranges = obj.structures.map(range=>{
+        let time = range.items[0].id.split("t=").pop()
+        let start = parseFloat(time.split(",")[0])
+        let end = parseFloat(time.split(",")[1])
+        let title = range.label.en[0]   
+        let summary = range.summary.en[0]
+
+        return {
+            title: title,
+            time: { start: start, end: end },
+            summary: summary,
+            color: range['tl:backgroundColour']
+        }
+    }).sort((a,b)=>a.time.start-b.time.start)
+    return `<div style="width:100%;" class="navibar">
+        ${ranges.reduce((a,item)=>a+=`<a onclick="player.currentTime=${item.time.start}" style="background-color:${item.color};width:${100*(item.time.end-item.time.start)/obj.items[0].duration}%;" title="${item.summary}, ${item.title}">${item.summary}</a>`,``)}
+    </div>`
 }
 
 // sandbox repository URLS
