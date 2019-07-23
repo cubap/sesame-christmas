@@ -17,10 +17,9 @@ import { default as DEER } from 'https://centerfordigitalhumanities.github.io/de
 
 // new template
 import { default as UTILS } from 'https://centerfordigitalhumanities.github.io/deer/releases/alpha-0.8/deer-utils.js'
-DEER.TEMPLATES.listen = (obj) => {
-    let tmpl = `<h2>${obj.label.en}</h2>`
-    let canvas = obj.items[0]
-    let ranges = obj.structures.map(range=>{
+
+function getRanges(obj) {
+    return obj.structures.map(range=>{
         let time = range.items[0].id.split("t=").pop()
         let start = parseFloat(time.split(",")[0])
         let end = parseFloat(time.split(",")[1])
@@ -30,48 +29,50 @@ DEER.TEMPLATES.listen = (obj) => {
         return {
             title: title,
             summary: summary,
-            time: { start: start, end: end }
-        }
-    }).sort((a,b)=>a.time.start-b.time.start)
-    let nav = `<nav><ul>`+ranges.reduce((a,item)=>a+=`<li class="navigation" onclick="player.currentTime=${item.time.start}" salon-start="${item.time.start}" salon-end="${item.time.end}"><cite>${item.summary}</cite><br>${item.title}</li>`,``)+`</ul></nav>`
-    let audio = `<audio id="player"
-        controls preload 
-        ontimeupdate="updateTimer()"
-        src="${canvas.items[0].items[0].body.id}"></audio>`
-    tmpl += nav + audio
-    // TODO: use passback to attach this after DOM attachment
-    window.updateTimer = () => {
-        Array.from(document.getElementsByClassName("navigation")).forEach(i=>{
-            let start = i.getAttribute("salon-start")
-            let end = i.getAttribute("salon-end")
-            if((player.currentTime > start) && (player.currentTime < end)) {
-                i.classList.add("active")
-            } else {
-                i.classList.remove("active")
-            }           
-        })
-    }
-    return tmpl
-}
-
-DEER.TEMPLATES.navibar = (obj) => {
-    let ranges = obj.structures.map(range=>{
-        let time = range.items[0].id.split("t=").pop()
-        let start = parseFloat(time.split(",")[0])
-        let end = parseFloat(time.split(",")[1])
-        let title = range.label.en[0]   
-        let summary = range.summary.en[0]
-
-        return {
-            title: title,
             time: { start: start, end: end },
-            summary: summary,
             color: range['tl:backgroundColour']
         }
     }).sort((a,b)=>a.time.start-b.time.start)
-    return `<div style="width:100%;" class="navibar">
-        ${ranges.reduce((a,item)=>a+=`<a onclick="player.currentTime=${item.time.start}" style="background-color:${item.color};width:${100*(item.time.end-item.time.start)/obj.items[0].duration}%;" title="${item.summary}, ${item.title}">${item.summary}</a>`,``)}
-    </div>`
+}
+
+DEER.TEMPLATES.listen = (obj) => `<audio id="player"
+    controls preload 
+    ontimeupdate="updateTimer()"
+    src="${obj.items[0].items[0].items[0].body.id}"></audio>`
+
+DEER.TEMPLATES.program = (obj) => `<h2>${obj.label.en}</h2><nav><ul>`+getRanges(obj).reduce((a,item)=>a+=`<li class="navigation" onclick="player.currentTime=${item.time.start}" salon-start="${item.time.start}" salon-end="${item.time.end}"><cite>${item.summary}</cite><br>${item.title}</li>`,``)+`</ul></nav>`
+
+// TODO: use passback to attach this after DOM attachment
+window.updateTimer = () => {
+    Array.from(document.getElementsByClassName("navigation")).forEach(i=>{
+        let start = i.getAttribute("salon-start")
+        let end = i.getAttribute("salon-end")
+        if((player.currentTime > start) && (player.currentTime < end)) {
+            i.classList.add("active")
+        } else {
+            i.classList.remove("active")
+        }           
+    })
+    Array.from(document.getElementsByClassName("slideshow")).forEach(i=>{
+        let start = i.getAttribute("salon-start")
+        let end = i.getAttribute("salon-end")
+        if((player.currentTime > start) && (player.currentTime < end)) {
+            i.classList.add("active")
+        } else {
+            i.classList.remove("active")
+        }           
+    })
+}
+
+DEER.TEMPLATES.navibar = (obj) => `<div style="width:100%;" class="navibar">${getRanges(obj).reduce((a,item)=>a+=`<a onclick="player.currentTime=${item.time.start}" style="background-color:${item.color};width:${100*(item.time.end-item.time.start)/obj.items[0].duration}%;" title="${item.summary}, ${item.title}">${item.summary}</a>`,``)}</div>`
+
+DEER.TEMPLATES.slideshow = (obj) => {
+    let annotations = obj.items[1].items.sort((a,b)=>parseFloat(a.target.split("t=").pop())-parseFloat(b.target.split("t=").pop()))
+    let renderTweet = a=>`<div class="slideshow" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">${a.value}</div>`
+    let renderImage = a=>`<img class="slideshow" src="${a.id}" salon-start="${parseFloat(a.target.split("t=").pop())}" salon-end="${parseFloat(a.target.split("t=").pop().split(",")[1])}">`
+    let tmpl = ``
+    annotations.forEach(a=>tmpl+=a.value?renderTweet(a):renderImage(a))
+    return tmpl
 }
 
 // sandbox repository URLS

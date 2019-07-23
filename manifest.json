@@ -25,11 +25,13 @@
           ""
         ]
       },
+      "height": 1000,
+      "width": 1000,
       "duration": 5512.943016,
       "behavior": ["no-repeat"],
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/c1-ap",
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/ap1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -48,6 +50,416 @@
                 "format": "audio/ogg"
               },
               "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1"
+            }
+          ]
+        },
+        {
+          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/ap2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_1694.webp",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=0,1142"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0131.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1142,1180"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/Mary_Drew_nee_Gladstone_mw159218.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1180,1200"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0204-Copy.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1200,1262"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0101.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1262,1275"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/programme.png",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1275,1316"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/applause_Punch_detail.png",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1316,1372"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0156.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1372,1401"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0119.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1401,1424"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/Mary_Gladstone_and_the_Victorian_Salon_Cover.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1424,1481"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0192.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1481,1664"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-12",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0191.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1664,1784"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-13",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0036.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1784,1908"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-14",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0204.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1908,2073"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-15",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/1",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2073,2130"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-16",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0202.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2130,2402"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-17",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/2",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2402,2453"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-18",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3242.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2453,2594"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-19",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/3",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2594,2626"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-20",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2626,2903"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-21",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0203.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2903,3143"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-22",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0123.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3143,3443"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-23",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0176.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3443,3647"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-24",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/4",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3647,3731"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-25",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/5",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3731,4070"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-26",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4070,4292"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-27",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0035.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4292,4480"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-28",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3238.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4480,4705"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-29",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/6",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4705,4793"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-30",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4793,4920"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-31",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0195.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4920,5042"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-32",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0190.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5042,5095"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-33",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3240.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5095,5219"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-34",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0210.JPG",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5219,5319"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-35",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/7",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5319,5400"
+            },
+            {
+              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-36",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/8",
+                "type": "Text",
+                "format": "text/html",
+                "value": "<code>embedded Twitter coming</code>"
+              },
+              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5400,5512"
             }
           ]
         }

@@ -12,6 +12,15 @@ nav ul li.navigation:before {
 li.navigation.active:before {
     color: #44FF44;
 }
+.slideshow {
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+.slideshow.active {
+    display: block;
+}
 audio {
     width:100%;
 }
@@ -27,4 +36,9 @@ div.navibar a {
     box-sizing: border-box;
     font-size: .7em;
     line-height: 3em;
+    cursor: pointer;
+}
+
+div.navibar a:hover {
+    border-color: #000000;
 }
