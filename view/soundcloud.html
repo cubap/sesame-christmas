@@ -44,8 +44,8 @@ author: Patrick Cuba <cubap@slu.edu>
             var widgetIframe = document.getElementById('sc-widget'),
                 widget       = SC.Widget(widgetIframe);
 
-            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(event,data) {
-                let seconds = data.currentPosition/1000
+            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(eventData) {
+                let seconds = eventData.currentPosition/1000
                 Array.from(document.getElementsByClassName("navigation")).forEach(i=>{
                     let start = i.getAttribute("salon-start")
                     let end = i.getAttribute("salon-end")
@@ -64,7 +64,7 @@ author: Patrick Cuba <cubap@slu.edu>
                         i.classList.remove("active")
                     }           
                 })
-            }());
+            });
         })()
     </script>
 </body>
