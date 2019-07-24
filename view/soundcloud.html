@@ -44,7 +44,7 @@ author: Patrick Cuba <cubap@slu.edu>
             var widgetIframe = document.getElementById('sc-widget'),
                 widget       = SC.Widget(widgetIframe);
 
-            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(data) {
+            widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(event,data) {
                 let seconds = data.currentPosition/1000
                 Array.from(document.getElementsByClassName("navigation")).forEach(i=>{
                     let start = i.getAttribute("salon-start")
