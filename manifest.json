@@ -44,10 +44,10 @@
                 ]
               },
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/gladstoneAudio.oga",
+                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/sesame.mp3",
                 "type": "Sound",
                 "duration": 5512.943016,
-                "format": "audio/ogg"
+                "format": "audio/mp3"
               },
               "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1"
             }
