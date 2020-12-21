@@ -4,7 +4,7 @@
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://centerfordigitalhumanities.github.io/sounding-salon/manifest.json",
+  "id": "https://cubap.github.io/sesame-christmas/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -18,7 +18,7 @@
   },
   "items": [
     {
-      "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1",
+      "id": "https://cubap.github.io/sesame-christmas/canvas/c1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -31,11 +31,11 @@
       "behavior": ["no-repeat"],
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/ap1",
+          "id": "https://cubap.github.io/sesame-christmas/list/ap1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/c1-1",
+              "id": "https://cubap.github.io/sesame-christmas/annot/c1-1",
               "type": "Annotation",
               "motivation": "painting",
               "label": {
@@ -44,422 +44,422 @@
                 ]
               },
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/sesame.mp3",
+                "id": "https://cubap.github.io/sesame-christmas/assets/sesame.mp3",
                 "type": "Sound",
                 "duration": 5512.943016,
                 "format": "audio/mp3"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1"
             }
           ]
         },
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/list/ap2",
+          "id": "https://cubap.github.io/sesame-christmas/list/ap2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-1",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_1694.webp",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/IMG_1694.webp",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=0,1142"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=0,1142"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-2",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0131.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0131.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1142,1180"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1142,1180"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-3",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-3",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/Mary_Drew_nee_Gladstone_mw159218.jpg",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/Mary_Drew_nee_Gladstone_mw159218.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1180,1200"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1180,1200"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-4",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-4",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0204-Copy.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0204-Copy.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1200,1262"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1200,1262"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-5",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-5",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0101.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0101.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1262,1275"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1262,1275"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-6",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-6",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/programme.png",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/programme.png",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1275,1316"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1275,1316"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-7",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-7",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/applause_Punch_detail.png",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/applause_Punch_detail.png",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1316,1372"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1316,1372"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-8",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-8",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0156.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0156.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1372,1401"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1372,1401"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-9",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-9",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0119.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0119.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1401,1424"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1401,1424"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-10",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-10",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/Mary_Gladstone_and_the_Victorian_Salon_Cover.jpg",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/Mary_Gladstone_and_the_Victorian_Salon_Cover.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1424,1481"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1424,1481"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-11",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-11",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0192.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0192.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1481,1664"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1481,1664"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-12",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-12",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0191.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0191.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1664,1784"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1664,1784"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-13",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-13",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0036.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0036.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1784,1908"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1784,1908"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-14",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-14",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0204.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0204.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1908,2073"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1908,2073"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-15",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-15",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/1",
+                "id": "https://cubap.github.io/sesame-christmas/snips/1",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2073,2130"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2073,2130"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-16",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-16",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0202.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0202.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2130,2402"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2130,2402"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-17",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-17",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/2",
+                "id": "https://cubap.github.io/sesame-christmas/snips/2",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2402,2453"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2402,2453"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-18",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-18",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3242.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/IMG_3242.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2453,2594"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2453,2594"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-19",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-19",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/3",
+                "id": "https://cubap.github.io/sesame-christmas/snips/3",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2594,2626"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2594,2626"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-20",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-20",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0194.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2626,2903"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2626,2903"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-21",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-21",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0203.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0203.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2903,3143"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2903,3143"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-22",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-22",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0123.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0123.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3143,3443"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=3143,3443"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-23",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-23",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0176.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0176.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3443,3647"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=3443,3647"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-24",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-24",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/4",
+                "id": "https://cubap.github.io/sesame-christmas/snips/4",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3647,3731"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=3647,3731"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-25",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-25",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/5",
+                "id": "https://cubap.github.io/sesame-christmas/snips/5",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3731,4070"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=3731,4070"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-26",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-26",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0194.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4070,4292"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4070,4292"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-27",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-27",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0035.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0035.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4292,4480"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4292,4480"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-28",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-28",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3238.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/IMG_3238.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4480,4705"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4480,4705"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-29",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-29",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/6",
+                "id": "https://cubap.github.io/sesame-christmas/snips/6",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4705,4793"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4705,4793"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-30",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-30",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0194.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0194.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4793,4920"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4793,4920"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-31",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-31",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0195.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0195.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4920,5042"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4920,5042"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-32",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-32",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0190.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0190.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5042,5095"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5042,5095"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-33",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-33",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/IMG_3240.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/IMG_3240.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5095,5219"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5095,5219"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-34",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-34",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/assets/images/DSC_0210.JPG",
+                "id": "https://cubap.github.io/sesame-christmas/assets/images/DSC_0210.JPG",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5219,5319"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5219,5319"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-35",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-35",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/7",
+                "id": "https://cubap.github.io/sesame-christmas/snips/7",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5319,5400"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5319,5400"
             },
             {
-              "id": "https://centerfordigitalhumanities.github.io/sounding-salon/annot/a2-36",
+              "id": "https://cubap.github.io/sesame-christmas/annot/a2-36",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://centerfordigitalhumanities.github.io/sounding-salon/snips/8",
+                "id": "https://cubap.github.io/sesame-christmas/snips/8",
                 "type": "Text",
                 "format": "text/html",
                 "value": "<blockquote class='twitter-tweet' data-lang='en'><p lang='en' dir='ltr'>Felt so rude not applauding - well done, it was gorgeous.  <a href='https://twitter.com/hashtag/marygladstonesalon?src=hash&amp;ref_src=twsrc%5Etfw'>#marygladstonesalon</a> <a href='https://t.co/VdND2M5nYr'>pic.twitter.com/VdND2M5nYr</a></p>&mdash; Karen Syrett (@KarenSyrett) <a href='https://twitter.com/KarenSyrett/status/971826486373175296?ref_src=twsrc%5Etfw'>March 8, 2018</a></blockquote> "
               },
-              "target": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5400,5512"
+              "target": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5400,5512"
             }
           ]
         }
@@ -468,7 +468,7 @@
   ],
   "structures": [
     {
-      "id": "https://centerfordigitalhumanities.github.io/sounding-salon/range/r0",
+      "id": "https://cubap.github.io/sesame-christmas/range/r0",
       "type": "Range",
       "label": {
         "en": [
@@ -482,7 +482,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=0,1142.066615",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=0,1142.066615",
           "type": "Canvas"
         }
       ],
@@ -503,7 +503,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2626.5082,3731.557539",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2626.5082,3731.557539",
           "type": "Canvas"
         }
       ],
@@ -524,7 +524,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4070.862083,4793.406724",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4070.862083,4793.406724",
           "type": "Canvas"
         }
       ],
@@ -545,7 +545,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1480.709903,2130.197852",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1480.709903,2130.197852",
           "type": "Canvas"
         }
       ],
@@ -566,7 +566,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=4793.406724,5283.558415",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=4793.406724,5283.558415",
           "type": "Canvas"
         }
       ],
@@ -587,7 +587,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=3731.557539,4070.862083",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=3731.557539,4070.862083",
           "type": "Canvas"
         }
       ],
@@ -608,7 +608,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2130.197852,2453.05097",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2130.197852,2453.05097",
           "type": "Canvas"
         }
       ],
@@ -629,7 +629,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1142.066615,1371.893421",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1142.066615,1371.893421",
           "type": "Canvas"
         }
       ],
@@ -650,7 +650,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=5283.558415,5512.943016",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=5283.558415,5512.943016",
           "type": "Canvas"
         }
       ],
@@ -671,7 +671,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=2453.05097,2626.5082",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=2453.05097,2626.5082",
           "type": "Canvas"
         }
       ],
@@ -692,7 +692,7 @@
       },
       "items": [
         {
-          "id": "https://centerfordigitalhumanities.github.io/sounding-salon/canvas/c1#t=1371.893421,1480.709903",
+          "id": "https://cubap.github.io/sesame-christmas/canvas/c1#t=1371.893421,1480.709903",
           "type": "Canvas"
         }
       ],
